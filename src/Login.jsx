@@ -26,7 +26,7 @@ function Login() {
         console.log(error.message)
       }
     }
-    const login=async () =>{
+    const login= async () =>{
        try{
       const user  = await signInWithEmailAndPassword(auth,loginEmail,loginPassword)
       console.log(user)
@@ -58,7 +58,7 @@ function Login() {
        </div>  
      
     </div>
-  )
+  ) 
 }
 
 export default Login
